@@ -9,9 +9,9 @@ html {
   color: #666;
 }
 
-.pimg1,
-.pimg2,
-.pimg3 {
+.img1,
+.img2,
+.img3 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -21,17 +21,17 @@ html {
   background-attachment: fixed;
 }
 
-.pimg1 {
+.img1 {
   background-image: url("./img/Image1.jpg");
   min-height: 100%;
 }
 
-.pimg2 {
+.img2 {
   background-image: url("./img/Image2.jpg");
   min-height: 400px;
 }
 
-.pimg3 {
+.img3 {
   background-image: url("./img/Image3.jpg");
   min-height: 400px;
 }
@@ -51,7 +51,7 @@ html {
   color: #ddd;
 }
 
-.ptext {
+.text {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -62,20 +62,20 @@ html {
   text-transform: uppercase;
 }
 
-.ptext .border {
+.text .border {
   background-color: #111;
   color: #fff;
   padding: 20px;
 }
 
-.ptext .border.trans {
+.text .border.trans {
   background-color: transparent;
 }
 
-@media (max-width: 568px) {
-  .pimg1,
-  .pimg2,
-  .pimg3 {
+@media (max-width: 600px) {
+  .img1,
+  .img2,
+  .img3 {
     background-attachment: scroll;
   }
 }
