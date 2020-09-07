@@ -66,6 +66,7 @@ html {
   background-color: #111;
   color: #fff;
   padding: 20px;
+  line-height: 3;
 }
 
 .text .border.trans {
